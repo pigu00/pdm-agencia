@@ -67,7 +67,7 @@ const Layout = ({
     "/index-five-light": "home-five-light",
   };
 
-  const classNameForCurrentPath = classMappings[router.pathname] || "";
+  const classNameForCurrentPath = classMappings[router.pathname] || "home-light";
 
   let additionalClasses = " ";
 
