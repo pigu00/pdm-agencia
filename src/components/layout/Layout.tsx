@@ -180,11 +180,11 @@ const Layout = ({
           href="/images/favicon.png"
           type="image/x-icon"
         />
-        <title>Xpovio | Digital Agency Creative Portfolio Template</title>
-        <meta name="keywords" content="creative, agency, portfolio" />
+        <title>PDM ARGENTINA | Comunicación política</title>
+        <meta name="keywords" content="comunicacion, política" />
         <meta
           name="description"
-          content="Digital Agency Creative Portfolio Template"
+          content="PDM ARGENTINA | Comunicación política"
         />
       </Head>
       <div className={combinedClassName}>

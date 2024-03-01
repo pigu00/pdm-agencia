@@ -41,7 +41,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-2 col-xl-2">
+          {/* <div className="col-12 col-lg-2 col-xl-2">
             <div className="footer__single">
               <div className="footer__single-intro">
                 <h5>discover</h5>
@@ -63,7 +63,9 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
+
+          
           <div className="col-12 col-lg-5 col-xl-4">
             <div className="footer__single">
               <div className="footer__single-intro">
@@ -102,15 +104,15 @@ const Footer = () => {
                   <div className="footer__copyright-text text-center text-lg-start">
                     <p>
                       Copyright &copy;
-                      <span id="copyYear">{currentYear}</span> Xpovio by{" "}
+                      <span id="copyYear">{currentYear}</span>  by{" "}
                       <Link
                         
                         href="https://themeforest.net/user/UltraDevs"
                         target="_blank"
                       >
-                        UltraDevs{" "}
+                        MovingStone{" "}
                       </Link>
-                      . All Rights Reserved
+                      . Todos los derechos reservados
                     </p>
                   </div>
                 </div>

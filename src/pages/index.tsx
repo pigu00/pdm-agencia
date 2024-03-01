@@ -8,17 +8,19 @@ import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
 import HomeBlog from "@/components/containers/home/HomeBlog";
 import HomeSponsor from "@/components/containers/home/HomeSponsor";
 import NextPage from "@/components/containers/home/NextPage";
+import TeamMembers from "@/components/containers/TeamMembers";
 
 const Home = () => {
   return (
-    <Layout header={1} footer={1} video={true}>
+    <Layout header={1} footer={1} video={false}>
       <HomeOneBanner />
       <Agency />
       <PortfolioText />
-      <HomeOffer />
-      <HomeTestimonial />
-      <HomeBlog />
-      <HomeSponsor />
+      {/* <HomeOffer /> */}
+      {/* <HomeTestimonial /> */}
+      {/* <HomeBlog /> */}
+      {/* <HomeSponsor /> */}
+      <TeamMembers/>
       <NextPage />
     </Layout>
   );

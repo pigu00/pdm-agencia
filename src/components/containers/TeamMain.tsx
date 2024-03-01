@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import one from "public/images/teams/one.png";
-import two from "public/images/teams/two.png";
-import three from "public/images/teams/three.png";
+import one from "../../assets/images/perfilPianta.png";
+import two from "../../assets/images/perfilAgustin.png";
+import three from "../../assets/images/perfilHernan.png";
 import four from "public/images/teams/four.png";
 import five from "public/images/teams/five.png";
 import six from "public/images/teams/six.png";
@@ -29,7 +29,7 @@ const TeamMain = () => {
                     </p>
                   </div>
                   <h4>
-                    <Link href="team-single">Sana p. Lesh</Link>
+                    <Link href="team-single">Javier P</Link>
                   </h4>
                   <p>Senior engineer</p>
                   <div className="social-alt">

@@ -96,22 +96,19 @@ const Agency = () => {
           <div className="col-12 col-lg-6">
             <div className="agency__content section__content">
               <span className="sub-title">
-                WELCOME
+                BIENVENIDOS
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">
-                We are digital creative agency in London
+              <h2 className="char">
+              Somos una agencia consultora con base en Buenos Aires, Argentina
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
-                  porttitor dictum sapien.
+                Tenemos experiencia en proyectos comunicacionales y estratégicos. Nos especializamos en trabajar con gobiernos, políticos e instituciones públicas. Asesoramos y acompañamos, sumando nuestra experiencia a equipos ya existentes o capacitándolos para la innovación estratégica. Nuestro enfoque abarca desde gobiernos provinciales y municipales hasta áreas de gobierno, ministerios y candidatos políticos. Trabajamos en estrecha colaboración con organizaciones sociales como sindicatos y universidades, así como con diversos organismos públicos locales. 
+
                 </p>
               </div>
-              <div className="skill-wrap">
+              {/* <div className="skill-wrap">
                 <div className="skill-bar-single d-none">
                   <div className="skill-bar-title">
                     <p className="primary-text">Website design</p>
@@ -148,10 +145,10 @@ const Agency = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="section__content-cta">
                 <Link href="about-us" className="btn btn--primary">
-                  Know More
+                  Conoce más
                 </Link>
               </div>
             </div>

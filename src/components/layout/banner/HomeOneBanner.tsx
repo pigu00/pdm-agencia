@@ -53,26 +53,24 @@ const HomeOneBanner = () => {
             <div className="col-12">
               <div className="banner__content">
                 <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
-                  We are
-                  <span className="text-stroke">creative</span>
+                comunicación política
+                  <span className="text-stroke">con estrategia </span>
                   <span className="interval">
-                    <i className="icon-arrow-top-right"></i> digital agency
+                    <i className="icon-arrow-top-right"></i>y táctica
                   </span>
                 </h1>
                 <div className="banner__content-inner">
                   <p>
-                    We are a full-service website design, development and
-                    digital marketing company specializing in SEO, content
-                    marketing that grows brands.
+                    Somos un equipo multidisciplinario especializado en comunicación estratégica política, comunicación de Crisis prensa, relaciones públicas, Investigación social y Big Data. 
                   </p>
                   <div className="cta section__content-cta">
                     <div className="single">
-                      <h5 className="fw-7">12+</h5>
-                      <p className="fw-5">years of experience</p>
+                      <h5 className="fw-7">+8</h5>
+                      <p className="fw-5">años de experiencia</p>
                     </div>
                     <div className="single">
-                      <h5 className="fw-7">25k</h5>
-                      <p className="fw-5">completed projects</p>
+                      <h5 className="fw-7">+ 40</h5>
+                      <p className="fw-5">campañas corridas</p>
                     </div>
                   </div>
                 </div>
@@ -87,8 +85,8 @@ const HomeOneBanner = () => {
         />
         <Image src={star} alt="Image" className="star" />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:info@xpovio.com">mail : info@xpovio.com</Link>
-          <Link href="tel:99-2158-003-6980">Call : +99 2158 003 6980</Link>
+          <Link href="mailto:info@xpovio.com">mail : info@pdm.com.ar</Link>
+          <Link href="tel:99-2158-003-6980">teléfono : +54 11 6292-0404</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
           <Link href="https://www.instagram.com/" target="_blank">

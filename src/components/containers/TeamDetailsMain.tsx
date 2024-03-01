@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import one from "public/images/teams/one.png";
+import one from "../../assets/images/perfilPianta.png";
 
 gsap.registerPlugin(ScrollTrigger);
 const TeamDetailsMain = () => {
@@ -106,8 +106,8 @@ const TeamDetailsMain = () => {
             <div className="team-det__content fade-top">
               <div className="intro">
                 <div className="intro-left">
-                  <h4>Sana p. Lesh</h4>
-                  <p>Senior engineer</p>
+                  <h4>Javier Pianta</h4>
+                  <p>CEO, Fundador</p>
                 </div>
                 <div className="intro-right">
                   <Link href="contact-us" className="btn btn--primary">

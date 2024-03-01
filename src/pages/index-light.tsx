@@ -11,12 +11,12 @@ import NextPage from "@/components/containers/home/NextPage";
 
 const HomeLight = () => {
   return (
-    <Layout header={1} footer={1} video={true}>
+    <Layout header={1} footer={1} video={false}>
       <HomeOneBanner />
       <Agency />
       <PortfolioText />
-      <HomeOffer />
-      <HomeTestimonial />
+      {/* <HomeOffer /> */}
+      {/* <HomeTestimonial /> */}
       <HomeBlog />
       <HomeSponsorLight />
       <NextPage />

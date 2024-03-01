@@ -37,7 +37,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
                 <Link href="portfolio">
-                  digital portfolio
+                analizar
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -46,8 +46,8 @@ const PortfolioText = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
-                <Link href="portfolio">
-                  digital portfolio
+                <Link href="">
+                investigar
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -56,8 +56,8 @@ const PortfolioText = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
-                  digital portfolio
+                <Link href="">
+                planificar
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -66,8 +66,8 @@ const PortfolioText = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
-                <Link href="portfolio">
-                  digital portfolio
+                <Link href="">
+                accionar
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -76,8 +76,8 @@ const PortfolioText = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
-                <Link href="portfolio">
-                  digital portfolio
+                <Link href="">
+                medir
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
@@ -86,26 +86,17 @@ const PortfolioText = () => {
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1 str">
-                <Link href="portfolio">
-                  digital portfolio
+                <Link href="">
+                  comunicar
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h2>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h2 className="h1">
-                <Link href="portfolio">
-                  digital portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
+          
         </Swiper>
       </div>
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="row gaper">
           <div className="col-12 col-sm-6 col-xl-3">
             <div
@@ -276,7 +267,7 @@ const PortfolioText = () => {
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
-      </div>
+      </div> */}
     </section>
   );
 };
