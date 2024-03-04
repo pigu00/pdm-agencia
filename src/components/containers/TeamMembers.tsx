@@ -84,7 +84,7 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single">
+                    <Link href="team-single-agustin">
                       <Image src={two} alt="Image" />
                     </Link> 
                     <div
@@ -98,7 +98,7 @@ const TeamMembers = () => {
                         </p>
                       </div>
                       <h4>
-                        <Link href="team-single">Agustin Wenger</Link>
+                        <Link href="team-single-agustin">Agustin Wenger</Link>
                       </h4>
                       <p>Director</p>
                       <div className="social-alt">
@@ -129,7 +129,7 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Agustin Wenger</Link>
+                        <Link href="team-single-agustin">Agustin Wenger</Link>
                       </h5>
                       <p>Director</p>
                     </div>
@@ -212,7 +212,7 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single">
+                    <Link href="team-single-hernan">
                       <Image src={three} alt="Image" />
                     </Link> 
                     <div
@@ -226,7 +226,7 @@ const TeamMembers = () => {
                         </p>
                       </div>
                       <h4>
-                        <Link href="team-single">Hernan Canal Vences</Link>
+                        <Link href="team-single-hernan">Hernan Canal Vences</Link>
                       </h4>
                       <p>El nuevo</p>
                       <div className="social-alt">
@@ -257,7 +257,7 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hernan Canal Vences</Link>
+                        <Link href="team-single-hernan">Hernan Canal Vences</Link>
                       </h5>
                       <p>El nuevo</p>
                     </div>
@@ -340,7 +340,7 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single">
+                    <Link href="team-single-javier">
                       <Image src={one} alt="Image" />
                     </Link> 
                     <div
@@ -354,7 +354,7 @@ const TeamMembers = () => {
                         </p>
                       </div>
                       <h4>
-                        <Link href="team-single">Javier Pianta</Link>
+                        <Link href="team-single-javier">Javier Pianta</Link>
                       </h4>
                       <p>CEO, Fundador</p>
                       <div className="social-alt">
@@ -385,7 +385,7 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Javier Pianta</Link>
+                        <Link href="team-single-javier">Javier Pianta</Link>
                       </h5>
                       <p>CEO, Fundador</p>
                     </div>

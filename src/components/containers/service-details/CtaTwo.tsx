@@ -14,8 +14,8 @@ const CtaTwo = () => {
               <div className="row gaper align-items-center">
                 <div className="col-12 col-lg-8">
                   <div className="cta-two__content">
-                    <span>Hello !</span>
-                    <h2 className="title-anim">ready to work with us?</h2>
+                    <span>Hola !</span>
+                    <h2 className="title-anim">Estas listo para trabajar con nosotros??</h2>
                     <h5>
                       <Link href="tel:19-3265-003-420">
                         call: +19 3265 003 420
@@ -26,7 +26,7 @@ const CtaTwo = () => {
                 <div className="col-12 col-lg-4">
                   <div className="text-start text-lg-end">
                     <Link href="contact-us" className="btn btn--tertiary">
-                      start a project
+                      Comencemos un nuevo proyecto
                       <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                     </Link>
                   </div>

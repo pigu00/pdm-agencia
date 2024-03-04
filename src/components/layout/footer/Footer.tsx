@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo.png";
+import logo from "../../../assets/images/Logo-PDMok.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -69,12 +69,11 @@ const Footer = () => {
           <div className="col-12 col-lg-5 col-xl-4">
             <div className="footer__single">
               <div className="footer__single-intro">
-                <h5>Subscribe our newsletter</h5>
+                <h5>Subscribite</h5>
               </div>
               <div className="footer__single-content">
                 <p>
-                  Welcome to our digital agency We specialize in helping
-                  business most like yours succeed online.
+                  Subscribite para recibir informes y estadisticas
                 </p>
                 <div className="footer__single-form">
                   <form action="#" method="post">
@@ -107,7 +106,7 @@ const Footer = () => {
                       <span id="copyYear">{currentYear}</span>  by{" "}
                       <Link
                         
-                        href="https://themeforest.net/user/UltraDevs"
+                        href="https://movingstoneagencia.com.ar"
                         target="_blank"
                       >
                         MovingStone{" "}
