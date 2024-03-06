@@ -53,9 +53,9 @@ const ProjectMain = () => {
         <div className="content">
           <h2>
             <Link href="project-single">
-              mobile app
+              comunicacíon
               <br />
-              development
+              estrategica
             </Link>
           </h2>
         </div>

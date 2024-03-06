@@ -8,7 +8,7 @@ const ProjectDetails = () => {
   return (
     <Layout header={2} footer={5} video={0}>
       <CmnBanner
-        title="Brand Identity"
+        title="ESTRATÉGICA"
         navigation="Brand Identity"
         parent="Projects"
         parentLink="our-projects"

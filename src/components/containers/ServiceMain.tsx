@@ -5,6 +5,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
 const ServiceMain = () => {
+  
   return (
     <section className="section service-t">
       <div className="container">
@@ -50,15 +51,18 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Branding</Link>
+                          <Link href="service-single">COMUNICACIÓN ESTRATÉGICA</Link>
                         </h4>
                       </div>
+                  
+                      <p>Creamos estrategias que fortalecen la reputación de nuestros clientes. Elaboramos la comunicación oral y escrita en función de objetivos específicos y diversos contextos e interlocutores</p>
+          
                       <ul>
-                        <li>Define Idea</li>
-                        <li>Competitor Reserach</li>
-                        <li>Target Audience</li>
-                        <li>Idea Validation</li>
-                        <li>Customer Value</li>
+
+                        <li>Gestión de Prensa</li>
+                        <li>Comunicación de Crisis</li>
+                        <li>Comunicación Digital</li>
+                        
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -78,15 +82,17 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UX Design</Link>
+                          <Link href="service-single">ENTRENAMIENTO DE MEDIOS</Link>
                         </h4>
                       </div>
+                      <p>
+                      Desarrollamos programas de capacitación para potenciar habilidades comunicacionales de los voceros. Gestionamos las relaciones de nuestros clientes con periodistas especializados, líderes de opinión y medios masivos de comunicación (radio, tv, diarios y medios on line), puesto que la relación con los comunicadores es de vital importancia para la concreción de nuestros objetivos
+                      </p>
                       <ul>
-                        <li>Estimation</li>
-                        <li>Research</li>
-                        <li>Story board</li>
-                        <li>User Flow</li>
-                        <li>Information Architecture</li>
+                        <li>Consolidación del mensaje</li>
+                        <li>Vinculación de la marca con los medios</li>
+                        <li>Comunicación Digital</li>
+                        
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -106,15 +112,20 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UI Design</Link>
+                          <Link href="service-single">COMUNICACIÓN POLÍTICA</Link>
                         </h4>
                       </div>
+                      <p>
+                      Diseñamos y ejecutamos acciones para campañas políticas y gobiernos en curso.
+
+                      </p>
                       <ul>
-                        <li>Hi-Fidelity Wireframe</li>
-                        <li>Design System</li>
-                        <li>Final Presentation</li>
-                        <li>Final Delivery</li>
-                        <li>Post Delivery Support</li>
+                        <li>Manejo de Issues</li>
+                        <li>Relación con los medios</li>
+                        <li>Opinión Pública</li>
+                        <li>Manejo de agenda</li>
+                        <li>Posicionamiento</li>
+                        <li>Gestión de imagen</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -134,15 +145,21 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Development</Link>
+                          <Link href="service-single">ESTRATEGIA DIGITAL</Link>
                         </h4>
                       </div>
+                      <p>
+                      Desarrollamos un plan de acción de intervenciones de social media y presencia online, para que los contenidos virtuales de nuestros clientes se integren en un entorno que maximice su difusión y circulación.
+
+                      </p>
                       <ul>
-                        <li>Front End</li>
-                        <li>Backend</li>
-                        <li>Mobile App</li>
-                        <li>Post Delivery Support</li>
-                        <li>server development</li>
+                        <li>Gestión de redes</li>
+                        <li>Generación de contenidos ad-hoc</li>
+                        <li>Posicionamiento</li>
+                        <li>Concepto y estética de marca</li>
+                        <li>Piezas gráficas y diseño multimedial</li>
+                        <li>Imagen corporativa</li>
+                        <li>Desarrollo web</li>
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -158,19 +175,22 @@ const ServiceMain = () => {
                     <div className="service-t__slider-single">
                       <div className="intro">
                         <span className="sub-title">
-                          01
+                          05
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">Branding</Link>
+                          <Link href="service-single">INVESTIGACIÓN</Link>
                         </h4>
                       </div>
+                      <p>
+                      Nos especializamos en estudios sociales y políticos. Llevamos adelante consultoría e investigación destinada a empresas de producción y servicios, y a instituciones públicas y privadas.
+
+                      </p>
                       <ul>
-                        <li>Define Idea</li>
-                        <li>Competitor Reserach</li>
-                        <li>Target Audience</li>
-                        <li>Idea Validation</li>
-                        <li>Customer Value</li>
+                        <li>Estudios cuali-cuantitativos</li>
+                        <li>Big data</li>
+                        <li>Social listening</li>
+                    
                       </ul>
                       <div className="cta">
                         <Link href="service-single">
@@ -186,20 +206,16 @@ const ServiceMain = () => {
                     <div className="service-t__slider-single">
                       <div className="intro">
                         <span className="sub-title">
-                          02
+                          06
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UX Design</Link>
+                          <Link href="service-single">ENTRENAMIENTO EN ORATORIA</Link>
                         </h4>
                       </div>
-                      <ul>
-                        <li>Estimation</li>
-                        <li>Research</li>
-                        <li>Story board</li>
-                        <li>User Flow</li>
-                        <li>Information Architecture</li>
-                      </ul>
+                      <p>Generamos un sistema propio para referentes que se proyectan en el campo social y político. Se desarrollan las cualidades que debe poseer el orador, la calidad, resultados del mensaje y la adecuación de éste al auditorio y contexto.
+                      </p>
+                      
                       <div className="cta">
                         <Link href="service-single">
                           <i className="icon-arrow-top-right"></i>
@@ -209,62 +225,7 @@ const ServiceMain = () => {
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                  <div className="service-t-single-wrapper">
-                    <div className="service-t__slider-single">
-                      <div className="intro">
-                        <span className="sub-title">
-                          03
-                          <i className="fa-solid fa-arrow-right"></i>
-                        </span>
-                        <h4>
-                          <Link href="service-single">UI Design</Link>
-                        </h4>
-                      </div>
-                      <ul>
-                        <li>Hi-Fidelity Wireframe</li>
-                        <li>Design System</li>
-                        <li>Final Presentation</li>
-                        <li>Final Delivery</li>
-                        <li>Post Delivery Support</li>
-                      </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="service-t-single-wrapper">
-                    <div className="service-t__slider-single">
-                      <div className="intro">
-                        <span className="sub-title">
-                          04
-                          <i className="fa-solid fa-arrow-right"></i>
-                        </span>
-                        <h4>
-                          <Link href="service-single">Development</Link>
-                        </h4>
-                      </div>
-                      <ul>
-                        <li>Front End</li>
-                        <li>Backend</li>
-                        <li>Mobile App</li>
-                        <li>Post Delivery Support</li>
-                        <li>server development</li>
-                      </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
+                
               </Swiper>
             </div>
           </div>

@@ -87,28 +87,17 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
             <div className="navbar__menu">
               <ul>
                 <li className="navbar__item navbar__item--has-children nav-fade">
-                  
-                  
-                <li>
                <Link href="/">Home</Link>
-                </li>
-                    
-                  
                 </li>
                 <li className="navbar__item nav-fade">
                   <Link href="about-us">Sobre nosotros</Link>
                 </li>
-
                 <li className="navbar__item nav-fade">
                   <Link href="our-services">Servicios</Link>
                 </li>
-
                 <li className="navbar__item nav-fade">
-                  <Link href="team-single">Equipo</Link>
+                  <Link href="our-teams">Equipo</Link>
                 </li>
-          
-                
-               
               </ul>
             </div>
           </div>

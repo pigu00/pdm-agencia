@@ -17,13 +17,11 @@ const ContactMain = () => {
                 <Image src={phone} alt="Image" />
               </div>
               <div className="content">
-                <h4>Phone & Fax</h4>
+                <h4>Teléfono</h4>
                 <p>
-                  <Link href="tel:197-90-56-780">Mobile : +197-90-56-780</Link>
+                  <Link href="tel:197-90-56-780">+54 11 6292-0404</Link>
                 </p>
-                <p>
-                  <Link href="tel:197-90-56-780">Fax : +44-208-1234567</Link>
-                </p>
+                
               </div>
             </div>
           </div>
@@ -33,10 +31,10 @@ const ContactMain = () => {
                 <Image src={mail} alt="Image" />
               </div>
               <div className="content">
-                <h4>Mail Address</h4>
+                <h4>Email</h4>
                 <p>
                   <Link href="mailto:info.company@gmail.com">
-                    Info.company@gmail.com
+                    hola@pdm.com.ar
                   </Link>
                 </p>
                 <p>
@@ -53,14 +51,12 @@ const ContactMain = () => {
                 <Image src={location} alt="Image" />
               </div>
               <div className="content">
-                <h4>Our Location</h4>
+                <h4>Dirección</h4>
                 <p>
-                  <Link
-                    href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
-                    target="_blank"
-                  >
+                 
+            
                     85 Ketch Harbour RoadBensalem, PA 19020
-                  </Link>
+                  
                 </p>
               </div>
             </div>
@@ -71,7 +67,7 @@ const ContactMain = () => {
                 <Image src={time} alt="Image" />
               </div>
               <div className="content">
-                <h4>Office Hour</h4>
+                <h4>Horario</h4>
                 <p>Sun - Thu 09 am - 06pm</p>
                 <p>Fri - Sat 4 pm - 10pm</p>
               </div>
