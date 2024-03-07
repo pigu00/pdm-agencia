@@ -8,7 +8,7 @@ const TeamDetails = () => {
   return (
     <Layout header={1} footer={1} video={0}>
       <CmnBanner
-        title="no si usar"
+        title="no usar"
         navigation="Team Details"
         parent="Our Teams"
         parentLink="our-teams"
