@@ -5,6 +5,8 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import thumbone from "public/images/agency/thumb-one.png";
 import thumbtwo from "public/images/agency/thumb-two.png";
+import somos1 from "../../../assets/images/somos1.png"
+import somos2 from "../../../assets/images/somos2.png"
 import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
 
@@ -80,13 +82,13 @@ const Agency = () => {
           <div className="col-12 col-lg-6">
             <div className="agency__thumb">
               <Image
-                src={thumbone}
+                src={somos1}
                 alt="Image"
                 className="thumb-one fade-left"
                 priority
               />
               <Image
-                src={thumbtwo}
+                src={somos2}
                 alt="Image"
                 className="thumb-two fade-right"
                 priority
@@ -100,7 +102,7 @@ const Agency = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="char">
-              Somos una agencia consultora con base en Buenos Aires, Argentina
+              Somos una agencia consultora con base en Bs As, Argentina
               </h2>
               <div className="paragraph">
                 <p>

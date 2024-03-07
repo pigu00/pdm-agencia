@@ -3,12 +3,14 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "public/images/sponsor/one.png";
-import two from "public/images/sponsor/two.png";
-import three from "public/images/sponsor/three.png";
-import four from "public/images/sponsor/four.png";
-import five from "public/images/sponsor/five.png";
-import six from "public/images/sponsor/six.png";
+import one from "../../../assets/images/partners-betta.png";
+import two from "../../../assets/images/partners-carpo.png";
+import three from "../../../assets/images/partners-iacta.png";
+import four from "../../../assets/images/partners-mono.png";
+import five from "../../../assets/images/partners-moving.png";
+import six from "../../../assets/images/partners-proyeccion.png";
+import seven from "../../../assets/images/partners-vap.png";
+
 
 const HomeSponsor = () => {
   return (
@@ -80,12 +82,7 @@ const HomeSponsor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={one} alt="Image" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="sponsor__slider-item">
-                    <Image src={two} alt="Image" />
+                    <Image src={seven} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -120,22 +117,7 @@ const HomeSponsor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={three} alt="Image" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="sponsor__slider-item">
-                    <Image src={four} alt="Image" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="sponsor__slider-item">
-                    <Image src={five} alt="Image" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="sponsor__slider-item">
-                    <Image src={six} alt="Image" />
+                    <Image src={seven} alt="Image" />
                   </div>
                 </SwiperSlide>
               </Swiper>

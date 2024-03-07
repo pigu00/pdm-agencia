@@ -9,6 +9,7 @@ import HomeBlog from "@/components/containers/home/HomeBlog";
 import HomeSponsor from "@/components/containers/home/HomeSponsor";
 import NextPage from "@/components/containers/home/NextPage";
 import TeamMembers from "@/components/containers/TeamMembers";
+import ServiceMain from "@/components/containers/ServiceMain";
 
 const Home = () => {
   return (
@@ -19,8 +20,10 @@ const Home = () => {
       {/* <HomeOffer /> */}
       {/* <HomeTestimonial /> */}
       {/* <HomeBlog /> */}
-      {/* <HomeSponsor /> */}
+       <HomeSponsor /> 
+    
       <TeamMembers/>
+      <ServiceMain/>
       <NextPage />
     </Layout>
   );

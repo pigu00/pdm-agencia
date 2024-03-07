@@ -4,9 +4,11 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import banneronethumb from "public/images/banner/banner-one-thumb.png";
+import bannerhome from "../../../assets/images/banner-home.png"
 import star from "public/images/star.png";
 import videoframe from "public/images/video-frame.png";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
+
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeOneBanner = () => {
@@ -79,7 +81,7 @@ const HomeOneBanner = () => {
           </div>
         </div>
         <Image
-          src={banneronethumb}
+          src={bannerhome}
           alt="Image"
           className="banner-one-thumb d-none d-sm-block g-ban-one"
         />
@@ -99,13 +101,18 @@ const HomeOneBanner = () => {
             facebook
           </Link>
         </div>
+        {/* 
+         
         <button
           className="video-frame video-btn"
           onClick={() => setVideoActive(true)}
         >
+          
           <Image src={videoframe} alt="Image" priority />
           <i className="fa-sharp fa-solid fa-play"></i>
         </button>
+
+        */}
         <div className="lines d-none d-lg-flex">
           <div className="line"></div>
           <div className="line"></div>
@@ -133,9 +140,14 @@ const HomeOneBanner = () => {
             </button>
           </div>
         </div>
+
       </div>
+     
+   
     </>
   );
+
+  
 };
 
 export default HomeOneBanner;

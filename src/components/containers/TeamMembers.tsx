@@ -22,11 +22,7 @@ const TeamMembers = () => {
               <div className="row gaper align-items-center">
                 <div className="col-12 col-lg-8">
                   <div className="section__header text-center text-lg-start mb-0">
-                    <span className="sub-title">
-                      our awesome crew
-                      <i className="fa-solid fa-arrow-right"></i>
-                    </span>
-                    <h2 className="title title-anim">
+                           <h2 className="title title-anim">
                       El equipo de PDM
                     </h2>
                   </div>
@@ -79,7 +75,7 @@ const TeamMembers = () => {
             
             
 
-           {/* tarjeta dos */}
+           
            <SwiperSlide>
               <div className="team-s__slider-single">
                 <div className="team-wrap">

@@ -151,6 +151,9 @@ const TeamMain = () => {
               </div>
             </div>
           </div>
+
+
+   {/* tarjeta tres 
           <div className="col-12 col-md-6 col-xl-4">
             <div className="team-m__single fade-top">
               <div className="thumb">
@@ -289,6 +292,9 @@ const TeamMain = () => {
               </div>
             </div>
           </div>
+          */}
+
+
         </div>
         <div className="row">
           <div className="col-12">

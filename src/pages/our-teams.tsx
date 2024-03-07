@@ -6,7 +6,7 @@ import TeamMain from "@/components/containers/TeamMain";
 const OurTeams = () => {
   return (
     <Layout header={1} footer={1} video={0}>
-      <CmnBanner title="Awesome Teams" navigation="Our Teams" />
+      <CmnBanner title="El Equipo de PDM" navigation="Equipo PDM" />
       <TeamMain />
     </Layout>
   );
