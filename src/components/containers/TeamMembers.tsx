@@ -73,7 +73,393 @@ const TeamMembers = () => {
             }}
           >
             
-            
+            <SwiperSlide>
+              <div className="team-s__slider-single">
+                <div className="team-wrap">
+                  <div className="thumb">
+                    <Link href="team-single-agustin">
+                      <Image src={two} alt="Image" />
+                    </Link> 
+                    <div
+                      className="thumb__content"
+                      style={{ backgroundImage: "url('/images/teams/bg.png')" }}
+                    >
+                      <div className="info">
+                        <p>
+                          “Lorem ipsum dolor sit amet consectetur adipiscing
+                          elit
+                        </p>
+                      </div>
+                      <h4>
+                        <Link href="team-single-agustin">Agustin Wenger</Link>
+                      </h4>
+                      <p>Director</p>
+                      <div className="social-alt">
+                        <Link
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          aria-label="share us on facebook"
+                        >
+                          <i className="fa-brands fa-facebook-f"></i>
+                        </Link>
+                        <Link
+                          href="https://www.twitter.com/"
+                          target="_blank"
+                          aria-label="share us on twitter"
+                        >
+                          <i className="fa-brands fa-twitter"></i>
+                        </Link>
+                        <Link
+                          href="https://www.pinterest.com/"
+                          target="_blank"
+                          aria-label="share us on pinterest"
+                        >
+                          <i className="fa-brands fa-linkedin-in"></i>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content">
+                    <div className="intro">
+                      <h5>
+                        <Link href="team-single-agustin">Agustin Wenger</Link>
+                      </h5>
+                      <p>Director</p>
+                    </div>
+                    <hr />
+                    <div className="inner">
+                      <p>
+                        Aenean sed fringilla purus, sed convallis sem. Morbi
+                        fringilla nulla tempus, cursus mauris in, placerat
+                        libero. Morbi tincidunt venenatis
+                      </p>
+                      <div className="skill-wrap">
+                        <div className="skill-bar-single">
+                          <div className="skill-bar-title">
+                            <p>Wireframe</p>
+                          </div>
+                          <div className="skill-bar-wrapper" data-percent="75%">
+                            <div className="skill-bar">
+                              <div className="skill-bar-percent">
+                                <span className="percent-value"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="skill-bar-single">
+                          <div className="skill-bar-title">
+                            <p>Visual Design</p>
+                          </div>
+                          <div className="skill-bar-wrapper" data-percent="90%">
+                            <div className="skill-bar">
+                              <div className="skill-bar-percent">
+                                <span className="percent-value"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        Morbi non urna fringilla, luctus arcu vel, malesuada
+                        est. Vestibulum at lorem feugiat
+                      </p>
+                    </div>
+                    <div className="social">
+                      <Link
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        aria-label="share us on facebook"
+                      >
+                        <i className="fa-brands fa-facebook-f"></i>
+                      </Link>
+                      <Link
+                        href="https://www.twitter.com/"
+                        target="_blank"
+                        aria-label="share us on twitter"
+                      >
+                        <i className="fa-brands fa-twitter"></i>
+                      </Link>
+                      <Link
+                        href="https://www.pinterest.com/"
+                        target="_blank"
+                        aria-label="share us on pinterest"
+                      >
+                        <i className="fa-brands fa-linkedin-in"></i>
+                      </Link>
+                      <Link
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        aria-label="share us on instagram"
+                      >
+                        <i className="fa-brands fa-instagram"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            {/* tarjeta tres */}
+
+            <SwiperSlide>
+              <div className="team-s__slider-single">
+                <div className="team-wrap">
+                  <div className="thumb">
+                    <Link href="team-single-hernan">
+                      <Image src={three} alt="Image" />
+                    </Link> 
+                    <div
+                      className="thumb__content"
+                      style={{ backgroundImage: "url('/images/teams/bg.png')" }}
+                    >
+                      <div className="info">
+                        <p>
+                          “Lorem ipsum dolor sit amet consectetur adipiscing
+                          elit
+                        </p>
+                      </div>
+                      <h4>
+                        <Link href="team-single-hernan">Hernan Canal Vences</Link>
+                      </h4>
+                      <p>El nuevo</p>
+                      <div className="social-alt">
+                        <Link
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          aria-label="share us on facebook"
+                        >
+                          <i className="fa-brands fa-facebook-f"></i>
+                        </Link>
+                        <Link
+                          href="https://www.twitter.com/"
+                          target="_blank"
+                          aria-label="share us on twitter"
+                        >
+                          <i className="fa-brands fa-twitter"></i>
+                        </Link>
+                        <Link
+                          href="https://www.pinterest.com/"
+                          target="_blank"
+                          aria-label="share us on pinterest"
+                        >
+                          <i className="fa-brands fa-linkedin-in"></i>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content">
+                    <div className="intro">
+                      <h5>
+                        <Link href="team-single-hernan">Hernan Canal Vences</Link>
+                      </h5>
+                      <p>El nuevo</p>
+                    </div>
+                    <hr />
+                    <div className="inner">
+                      <p>
+                        Aenean sed fringilla purus, sed convallis sem. Morbi
+                        fringilla nulla tempus, cursus mauris in, placerat
+                        libero. Morbi tincidunt venenatis
+                      </p>
+                      <div className="skill-wrap">
+                        <div className="skill-bar-single">
+                          <div className="skill-bar-title">
+                            <p>Wireframe</p>
+                          </div>
+                          <div className="skill-bar-wrapper" data-percent="75%">
+                            <div className="skill-bar">
+                              <div className="skill-bar-percent">
+                                <span className="percent-value"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="skill-bar-single">
+                          <div className="skill-bar-title">
+                            <p>Visual Design</p>
+                          </div>
+                          <div className="skill-bar-wrapper" data-percent="90%">
+                            <div className="skill-bar">
+                              <div className="skill-bar-percent">
+                                <span className="percent-value"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        Morbi non urna fringilla, luctus arcu vel, malesuada
+                        est. Vestibulum at lorem feugiat
+                      </p>
+                    </div>
+                    <div className="social">
+                      <Link
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        aria-label="share us on facebook"
+                      >
+                        <i className="fa-brands fa-facebook-f"></i>
+                      </Link>
+                      <Link
+                        href="https://www.twitter.com/"
+                        target="_blank"
+                        aria-label="share us on twitter"
+                      >
+                        <i className="fa-brands fa-twitter"></i>
+                      </Link>
+                      <Link
+                        href="https://www.pinterest.com/"
+                        target="_blank"
+                        aria-label="share us on pinterest"
+                      >
+                        <i className="fa-brands fa-linkedin-in"></i>
+                      </Link>
+                      <Link
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        aria-label="share us on instagram"
+                      >
+                        <i className="fa-brands fa-instagram"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            {/* tarjeta cuatro */}
+
+            <SwiperSlide>
+              <div className="team-s__slider-single">
+                <div className="team-wrap">
+                  <div className="thumb">
+                    <Link href="team-single-javier">
+                      <Image src={one} alt="Image" />
+                    </Link> 
+                    <div
+                      className="thumb__content"
+                      style={{ backgroundImage: "url('/images/teams/bg.png')" }}
+                    >
+                      <div className="info">
+                        <p>
+                          “Lorem ipsum dolor sit amet consectetur adipiscing
+                          elit
+                        </p>
+                      </div>
+                      <h4>
+                        <Link href="team-single-javier">Javier Pianta</Link>
+                      </h4>
+                      <p>CEO, Fundador</p>
+                      <div className="social-alt">
+                        <Link
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          aria-label="share us on facebook"
+                        >
+                          <i className="fa-brands fa-facebook-f"></i>
+                        </Link>
+                        <Link
+                          href="https://www.twitter.com/"
+                          target="_blank"
+                          aria-label="share us on twitter"
+                        >
+                          <i className="fa-brands fa-twitter"></i>
+                        </Link>
+                        <Link
+                          href="https://www.pinterest.com/"
+                          target="_blank"
+                          aria-label="share us on pinterest"
+                        >
+                          <i className="fa-brands fa-linkedin-in"></i>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content">
+                    <div className="intro">
+                      <h5>
+                        <Link href="team-single-javier">Javier Pianta</Link>
+                      </h5>
+                      <p>CEO, Fundador</p>
+                    </div>
+                    <hr />
+                    <div className="inner">
+                      <p>
+                        Aenean sed fringilla purus, sed convallis sem. Morbi
+                        fringilla nulla tempus, cursus mauris in, placerat
+                        libero. Morbi tincidunt venenatis
+                      </p>
+                      <div className="skill-wrap">
+                        <div className="skill-bar-single">
+                          <div className="skill-bar-title">
+                            <p>Wireframe</p>
+                          </div>
+                          <div className="skill-bar-wrapper" data-percent="75%">
+                            <div className="skill-bar">
+                              <div className="skill-bar-percent">
+                                <span className="percent-value"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="skill-bar-single">
+                          <div className="skill-bar-title">
+                            <p>Visual Design</p>
+                          </div>
+                          <div className="skill-bar-wrapper" data-percent="90%">
+                            <div className="skill-bar">
+                              <div className="skill-bar-percent">
+                                <span className="percent-value"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        Morbi non urna fringilla, luctus arcu vel, malesuada
+                        est. Vestibulum at lorem feugiat
+                      </p>
+                    </div>
+                    <div className="social">
+                      <Link
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        aria-label="share us on facebook"
+                      >
+                        <i className="fa-brands fa-facebook-f"></i>
+                      </Link>
+                      <Link
+                        href="https://www.twitter.com/"
+                        target="_blank"
+                        aria-label="share us on twitter"
+                      >
+                        <i className="fa-brands fa-twitter"></i>
+                      </Link>
+                      <Link
+                        href="https://www.pinterest.com/"
+                        target="_blank"
+                        aria-label="share us on pinterest"
+                      >
+                        <i className="fa-brands fa-linkedin-in"></i>
+                      </Link>
+                      <Link
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        aria-label="share us on instagram"
+                      >
+                        <i className="fa-brands fa-instagram"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+
+
+
+
+
 
            
            <SwiperSlide>
