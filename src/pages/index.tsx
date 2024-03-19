@@ -10,6 +10,7 @@ import HomeSponsor from "@/components/containers/home/HomeSponsor";
 import NextPage from "@/components/containers/home/NextPage";
 import TeamMembers from "@/components/containers/TeamMembers";
 import ServiceMain from "@/components/containers/ServiceMain";
+import Carousel from "@/components/containers/Carousel";
 
 const Home = () => {
   return (
@@ -20,10 +21,11 @@ const Home = () => {
       {/* <HomeOffer /> */}
       {/* <HomeTestimonial /> */}
       {/* <HomeBlog /> */}
-       <HomeSponsor /> 
-    
+      {/* <HomeOffer />  */}
+      <HomeSponsor /> 
       <TeamMembers/>
-      <ServiceMain/>
+      <HomeTestimonial /> 
+      {/* <ServiceMain/> */}
       <NextPage />
     </Layout>
   );

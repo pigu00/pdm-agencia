@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
+
 const ServiceMain = () => {
   
   return (
@@ -50,11 +51,12 @@ const ServiceMain = () => {
                           01
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
+                        
                         <h4>
                           <Link href="service-single">COMUNICACIÓN ESTRATÉGICA</Link>
                         </h4>
                       </div>
-                  
+
                       <p>Creamos estrategias que fortalecen la reputación de nuestros clientes. Elaboramos la comunicación oral y escrita en función de objetivos específicos y diversos contextos e interlocutores</p>
           
                       <ul>
