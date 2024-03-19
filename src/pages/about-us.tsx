@@ -12,12 +12,12 @@ const AboutUs = () => {
   return (
     <Layout header={1} footer={1} video={0}>
       <CmnBanner title="Contacto" navigation="Contacto" />
-      <HomeTwoModal />
-      <Agency />
-      <TeamMembers />
-      <HomeTestimonial />
-      <AboutSponsor />
-      <AboutCta />
+      {/* <HomeTwoModal /> */}
+      {/* <Agency /> */}
+      {/* <TeamMembers /> */}
+      {/* <HomeTestimonial />
+      <AboutSponsor /> */}
+      {/* <AboutCta /> */}
     </Layout>
   );
 };

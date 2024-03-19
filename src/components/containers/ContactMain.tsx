@@ -37,11 +37,7 @@ const ContactMain = () => {
                     hola@pdm.com.ar
                   </Link>
                 </p>
-                <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@yahoo.com
-                  </Link>
-                </p>
+               
               </div>
             </div>
           </div>
@@ -53,10 +49,7 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Dirección</h4>
                 <p>
-                 
-            
-                    85 Ketch Harbour RoadBensalem, PA 19020
-                  
+                 Lorem ipsum dolor sit.                  
                 </p>
               </div>
             </div>
@@ -68,13 +61,13 @@ const ContactMain = () => {
               </div>
               <div className="content">
                 <h4>Horario</h4>
-                <p>Sun - Thu 09 am - 06pm</p>
-                <p>Fri - Sat 4 pm - 10pm</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem, ipsum.</p>
               </div>
             </div>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="map-wrapper">
               <div className="row gaper">
@@ -144,7 +137,7 @@ const ContactMain = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

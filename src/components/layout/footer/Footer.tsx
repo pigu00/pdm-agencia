@@ -23,20 +23,20 @@ const Footer = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  901 N Pitt Str., Suite 170 Alexandria, USA
+                  Lorem ipsum dolor sit amet. 
                 </Link>
                 <Link href="tel:406-555-0120">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                  (406) 555-0120
+                  +54 11 6292-0404
                 </Link>
                 <Link href="mailto:info@xpovio.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@xpovio.com
+                  hola@pdm.com.com
                 </Link>
               </div>
               <div className="footer__cta text-start">
                 <Link href="contact-us" className="btn btn--secondary">
-                  book a call now
+                  contacto
                 </Link>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Footer = () => {
           <div className="col-12 col-lg-5 col-xl-4">
             <div className="footer__single">
               <div className="footer__single-intro">
-                <h5>Subscribite</h5>
+                {/* <h5>Subscribite</h5> */}
               </div>
               <div className="footer__single-content">
                 <p>
@@ -82,7 +82,7 @@ const Footer = () => {
                         type="email"
                         name="subscribe-news"
                         id="subscribeNews"
-                        placeholder="Enter Your Email"
+                        placeholder="Ingresa tu email"
                         required
                       />
                       <button type="submit" className="subscribe">

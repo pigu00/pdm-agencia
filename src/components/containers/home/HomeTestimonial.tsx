@@ -169,12 +169,12 @@ const HomeTestimonial = () => {
                             <h2>COMUNICACIÓN ESTRATÉGICA</h2>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h5>
                             Creamos estrategias que fortalecen la reputación de nuestros clientes. Elaboramos la comunicación oral y escrita en función de objetivos específicos y diversos contextos e interlocutores
-                            </h4>
+                            </h5>
                           </div>
                           <div className="content-cta">
-                            <h5>Gestión de Prensa | Comunicación de Crisis | Comunicación Digital</h5>
+                            <h6>Gestión de Prensa | Comunicación de Crisis | Comunicación Digital</h6>
                             {/* <p>Senior engineer</p> */}
                           </div>
                         </div>
@@ -214,13 +214,13 @@ const HomeTestimonial = () => {
                             <h2>ENTRENAMIENTO DE MEDIOS</h2>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h5>
                             Desarrollamos programas de capacitación para potenciar habilidades comunicacionales de los voceros. Gestionamos las relaciones de nuestros clientes con periodistas especializados, líderes de opinión y medios masivos de comunicación (radio, tv, diarios y medios on line), puesto que la relación con los comunicadores es de vital importancia para la concreción de nuestros objetivos
 
-                            </h4>
+                            </h5>
                           </div>
                           <div className="content-cta">
-                            <h5>Consolidación del mensaje | Vinculación de la marca con los medios | Entrenamiento en lenguaje corporal</h5>
+                            <h6>Consolidación del mensaje | Vinculación de la marca con los medios | Entrenamiento en lenguaje corporal</h6>
                             {/* <p>Senior engineer</p> */}
                           </div>
                         </div>
@@ -260,12 +260,12 @@ const HomeTestimonial = () => {
                             <h2>COMUNICACIÓN POLÍTICA</h2>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h5>
                             Diseñamos y ejecutamos acciones para campañas políticas y gobiernos en curso.
-                            </h4>
+                            </h5>
                           </div>
                           <div className="content-cta">
-                            <h5>Manejo de Issues | Relación con los medios | Opinión Pública</h5>
+                            <h6>Manejo de Issues | Relación con los medios | Opinión Pública</h6>
                             <p>Manejo de agenda | Posicionamiento | Gestión de imagen</p>
                           </div>
                         </div>
@@ -305,12 +305,12 @@ const HomeTestimonial = () => {
                             <h2>ESTRATEGIA DIGITAL</h2>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h5>
                             Desarrollamos un plan de acción de intervenciones de social media y presencia online, para que los contenidos virtuales de nuestros clientes se integren en un entorno que maximice su difusión y circulación.
-                            </h4>
+                            </h5>
                           </div>
                           <div className="content-cta">
-                            <h5>Gestión de redes | Generación de contenidos ad-hoc | Posicionamiento | Imagen corporativa</h5>
+                            <h6>Gestión de redes | Generación de contenidos ad-hoc | Posicionamiento | Imagen corporativa</h6>
                             <p>Concepto y estética de marca | Piezas gráficas y diseño multimedial | Desarrollo web</p>
                           </div>
                         </div>
@@ -350,13 +350,13 @@ const HomeTestimonial = () => {
                             <h2>INVESTIGACIÓN</h2>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h5>
                             Nos especializamos en estudios sociales y políticos. Llevamos adelante consultoría e investigación destinada a empresas de producción y servicios, y a instituciones públicas y privadas.
 
-                            </h4>
+                            </h5>
                           </div>
                           <div className="content-cta">
-                            <h5>Estudios cuali-cuantitativos | Big data | Social listening</h5>
+                            <h6>Estudios cuali-cuantitativos | Big data | Social listening</h6>
                             {/* <p>Senior engineer</p> */}
                           </div>
                         </div>
@@ -397,9 +397,9 @@ const HomeTestimonial = () => {
 </h2>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h5>
                             Generamos un sistema propio para referentes que se proyectan en el campo social y político. Se desarrollan las cualidades que debe poseer el orador, la calidad, resultados del mensaje y la adecuación de éste al auditorio y contexto.
-                            </h4>
+                            </h5>
                           </div>
                           <div className="content-cta">
                             {/* <h5>Gestión de Prensa | Comunicación de Crisis | Comunicación Digital</h5> */}
