@@ -41,7 +41,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                   servicios
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -51,7 +51,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                 servicios
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -61,7 +61,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                 servicios
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -71,7 +71,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                 servicios
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -81,7 +81,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                 servicios
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -91,7 +91,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                 servicios
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -101,7 +101,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                 servicios
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
