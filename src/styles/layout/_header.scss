@@ -14,10 +14,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
+    gap: 10px;
     flex-wrap: wrap;
   }
-
+// si se rompe el header mobile llevar gap 60px justo arriba
   .navbar__menu {
     flex-grow: 1;
     & > ul {
