@@ -1064,10 +1064,10 @@
       }
     }
   }
-
+//boton menu mobile box a 60px @include box(20px);
   .secondary--navbar {
     .open-offcanvas-nav {
-      @include box(60px);
+      @include box(20px);
     }
   }
 
