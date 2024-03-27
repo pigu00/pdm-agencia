@@ -127,7 +127,7 @@ const TeamMembers = () => {
                       <p>Director</p>
                     </div>
                     <hr />
-                    <div className="inner">
+                    {/* <div className="inner">
                       <p>
                         Aenean sed fringilla purus, sed convallis sem. Morbi
                         fringilla nulla tempus, cursus mauris in, placerat
@@ -163,7 +163,7 @@ const TeamMembers = () => {
                         Morbi non urna fringilla, luctus arcu vel, malesuada
                         est. Vestibulum at lorem feugiat
                       </p>
-                    </div>
+                    </div> */}
                     <div className="social">
                       <Link
                         href="https://www.facebook.com/"
@@ -252,10 +252,10 @@ const TeamMembers = () => {
                       <h5>
                         <Link href="team-single-hernan">Hernan Canal Vences</Link>
                       </h5>
-                      <p>El nuevo</p>
+                      <p>Ejecutivo de cuentas</p>
                     </div>
                     <hr />
-                    <div className="inner">
+                    {/* <div className="inner">
                       <p>
                         Aenean sed fringilla purus, sed convallis sem. Morbi
                         fringilla nulla tempus, cursus mauris in, placerat
@@ -291,7 +291,7 @@ const TeamMembers = () => {
                         Morbi non urna fringilla, luctus arcu vel, malesuada
                         est. Vestibulum at lorem feugiat
                       </p>
-                    </div>
+                    </div> */}
                     <div className="social">
                       <Link
                         href="https://www.facebook.com/"
@@ -349,7 +349,7 @@ const TeamMembers = () => {
                       <h4>
                         <Link href="team-single-javier">Javier Pianta</Link>
                       </h4>
-                      <p>CEO, Fundador</p>
+                      <p>Fundador, Ceo</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -380,10 +380,10 @@ const TeamMembers = () => {
                       <h5>
                         <Link href="team-single-javier">Javier Pianta</Link>
                       </h5>
-                      <p>CEO, Fundador</p>
+                      <p>Fundador, Ceo</p>
                     </div>
                     <hr />
-                    <div className="inner">
+                    {/* <div className="inner">
                       <p>
                         Aenean sed fringilla purus, sed convallis sem. Morbi
                         fringilla nulla tempus, cursus mauris in, placerat
@@ -419,7 +419,7 @@ const TeamMembers = () => {
                         Morbi non urna fringilla, luctus arcu vel, malesuada
                         est. Vestibulum at lorem feugiat
                       </p>
-                    </div>
+                    </div> */}
                     <div className="social">
                       <Link
                         href="https://www.facebook.com/"
@@ -454,15 +454,11 @@ const TeamMembers = () => {
                 </div>
               </div>
             </SwiperSlide>
+{/* duplicado  */}
 
 
 
-
-
-
-
-           
-           <SwiperSlide>
+<SwiperSlide>
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
@@ -516,7 +512,7 @@ const TeamMembers = () => {
                       <p>Director</p>
                     </div>
                     <hr />
-                    <div className="inner">
+                    {/* <div className="inner">
                       <p>
                         Aenean sed fringilla purus, sed convallis sem. Morbi
                         fringilla nulla tempus, cursus mauris in, placerat
@@ -552,7 +548,7 @@ const TeamMembers = () => {
                         Morbi non urna fringilla, luctus arcu vel, malesuada
                         est. Vestibulum at lorem feugiat
                       </p>
-                    </div>
+                    </div> */}
                     <div className="social">
                       <Link
                         href="https://www.facebook.com/"
@@ -641,10 +637,10 @@ const TeamMembers = () => {
                       <h5>
                         <Link href="team-single-hernan">Hernan Canal Vences</Link>
                       </h5>
-                      <p>El nuevo</p>
+                      <p>Ejecutivo de cuentas</p>
                     </div>
                     <hr />
-                    <div className="inner">
+                    {/* <div className="inner">
                       <p>
                         Aenean sed fringilla purus, sed convallis sem. Morbi
                         fringilla nulla tempus, cursus mauris in, placerat
@@ -680,7 +676,7 @@ const TeamMembers = () => {
                         Morbi non urna fringilla, luctus arcu vel, malesuada
                         est. Vestibulum at lorem feugiat
                       </p>
-                    </div>
+                    </div> */}
                     <div className="social">
                       <Link
                         href="https://www.facebook.com/"
@@ -738,7 +734,7 @@ const TeamMembers = () => {
                       <h4>
                         <Link href="team-single-javier">Javier Pianta</Link>
                       </h4>
-                      <p>CEO, Fundador</p>
+                      <p>Fundador, Ceo</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -769,10 +765,10 @@ const TeamMembers = () => {
                       <h5>
                         <Link href="team-single-javier">Javier Pianta</Link>
                       </h5>
-                      <p>CEO, Fundador</p>
+                      <p>Fundador, Ceo</p>
                     </div>
                     <hr />
-                    <div className="inner">
+                    {/* <div className="inner">
                       <p>
                         Aenean sed fringilla purus, sed convallis sem. Morbi
                         fringilla nulla tempus, cursus mauris in, placerat
@@ -808,7 +804,7 @@ const TeamMembers = () => {
                         Morbi non urna fringilla, luctus arcu vel, malesuada
                         est. Vestibulum at lorem feugiat
                       </p>
-                    </div>
+                    </div> */}
                     <div className="social">
                       <Link
                         href="https://www.facebook.com/"
@@ -843,6 +839,9 @@ const TeamMembers = () => {
                 </div>
               </div>
             </SwiperSlide>
+
+
+
 
           </Swiper>
         </div>
