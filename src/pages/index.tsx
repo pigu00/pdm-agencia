@@ -3,14 +3,10 @@ import Layout from "@/components/layout/Layout";
 import HomeOneBanner from "@/components/layout/banner/HomeOneBanner";
 import Agency from "@/components/containers/home/Agency";
 import PortfolioText from "@/components/containers/home/PortfolioText";
-import HomeOffer from "@/components/containers/home/HomeOffer";
-import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
-import HomeBlog from "@/components/containers/home/HomeBlog";
 import HomeSponsor from "@/components/containers/home/HomeSponsor";
-import NextPage from "@/components/containers/home/NextPage";
 import TeamMembers from "@/components/containers/TeamMembers";
-import ServiceMain from "@/components/containers/ServiceMain";
-import Carousel from "@/components/containers/Carousel";
+import NextPage from "@/components/containers/home/NextPage";
+import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
 
 const Home = () => {
   return (
@@ -18,17 +14,20 @@ const Home = () => {
       <HomeOneBanner />
       <Agency />
       <PortfolioText />
-      {/* <HomeOffer /> */}
-      {/* <HomeTestimonial /> */}
-      {/* <HomeBlog /> */}
-      {/* <HomeOffer />  */}
-      <HomeSponsor /> 
+      <HomeSponsor />
       <TeamMembers/>
       <HomeTestimonial /> 
-      {/* <ServiceMain/> */}
       <NextPage />
     </Layout>
   );
 };
+
+export async function getStaticProps() {
+  // No necesitas realizar operaciones asíncronas aquí, 
+  // ya que no necesitas props iniciales
+  return {
+    props: {}, // Debes retornar props vacías o undefined si no se necesitan props iniciales
+  };
+}
 
 export default Home;
