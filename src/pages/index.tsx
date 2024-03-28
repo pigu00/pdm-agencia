@@ -22,12 +22,4 @@ const Home = () => {
   );
 };
 
-export async function getStaticProps() {
-  // No necesitas realizar operaciones asíncronas aquí, 
-  // ya que no necesitas props iniciales
-  return {
-    props: {}, // Debes retornar props vacías o undefined si no se necesitan props iniciales
-  };
-}
-
 export default Home;
