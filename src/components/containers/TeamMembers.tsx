@@ -77,21 +77,23 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single-agustin">
+                    {/* <Link href="team-single-agustin">
                       <Image src={two} alt="Image" />
-                    </Link> 
+                    </Link>  */}
+                    <Image src={two} alt="Image" />
                     <div
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="info">
-                        <p>
+                        {/* <p>
                           “Lorem ipsum dolor sit amet consectetur adipiscing
                           elit
-                        </p>
+                        </p> */}
                       </div>
                       <h4>
-                        <Link href="team-single-agustin">Agustin Wenger</Link>
+                      Agustin Wenger
+                        {/* <Link href="team-single-agustin">Agustin Wenger</Link> */}
                       </h4>
                       <p>Director</p>
                       <div className="social-alt">
@@ -122,7 +124,8 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single-agustin">Agustin Wenger</Link>
+                      Agustin Wenger
+                        {/* <Link href="team-single-agustin">Agustin Wenger</Link> */}
                       </h5>
                       <p>Director</p>
                     </div>
@@ -205,23 +208,25 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single-hernan">
+                    {/* <Link href="team-single-hernan">
                       <Image src={three} alt="Image" />
-                    </Link> 
+                    </Link>  */}
+                    <Image src={three} alt="Image" />
                     <div
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="info">
-                        <p>
+                        {/* <p>
                           “Lorem ipsum dolor sit amet consectetur adipiscing
                           elit
-                        </p>
+                        </p> */}
                       </div>
                       <h4>
-                        <Link href="team-single-hernan">Hernan Canal Vences</Link>
+                      Hernan Canal Vences
+                        {/* <Link href="team-single-hernan">Hernan Canal Vences</Link> */}
                       </h4>
-                      <p>El nuevo</p>
+                      <p>Ejecutivo de cuentas</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -250,7 +255,8 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single-hernan">Hernan Canal Vences</Link>
+                      Hernan Canal Vences
+                        {/* <Link href="team-single-hernan">Hernan Canal Vences</Link> */}
                       </h5>
                       <p>Ejecutivo de cuentas</p>
                     </div>
@@ -333,21 +339,23 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single-javier">
+                    {/* <Link href="team-single-javier">
                       <Image src={one} alt="Image" />
-                    </Link> 
+                    </Link>  */}
+                    <Image src={one} alt="Image" />
                     <div
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="info">
-                        <p>
+                        {/* <p>
                           “Lorem ipsum dolor sit amet consectetur adipiscing
                           elit
-                        </p>
+                        </p> */}
                       </div>
                       <h4>
-                        <Link href="team-single-javier">Javier Pianta</Link>
+                      Javier Pianta
+                        {/* <Link href="team-single-javier">Javier Pianta</Link> */}
                       </h4>
                       <p>Fundador, Ceo</p>
                       <div className="social-alt">
@@ -378,7 +386,8 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single-javier">Javier Pianta</Link>
+                      Javier Pianta
+                        {/* <Link href="team-single-javier">Javier Pianta</Link> */}
                       </h5>
                       <p>Fundador, Ceo</p>
                     </div>
@@ -454,29 +463,31 @@ const TeamMembers = () => {
                 </div>
               </div>
             </SwiperSlide>
-{/* duplicado  */}
 
+{/* duplicado  */}
 
 
 <SwiperSlide>
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single-agustin">
+                    {/* <Link href="team-single-agustin">
                       <Image src={two} alt="Image" />
-                    </Link> 
+                    </Link>  */}
+                    <Image src={two} alt="Image" />
                     <div
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="info">
-                        <p>
+                        {/* <p>
                           “Lorem ipsum dolor sit amet consectetur adipiscing
                           elit
-                        </p>
+                        </p> */}
                       </div>
                       <h4>
-                        <Link href="team-single-agustin">Agustin Wenger</Link>
+                      Agustin Wenger
+                        {/* <Link href="team-single-agustin">Agustin Wenger</Link> */}
                       </h4>
                       <p>Director</p>
                       <div className="social-alt">
@@ -507,7 +518,8 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single-agustin">Agustin Wenger</Link>
+                      Agustin Wenger
+                        {/* <Link href="team-single-agustin">Agustin Wenger</Link> */}
                       </h5>
                       <p>Director</p>
                     </div>
@@ -590,23 +602,25 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single-hernan">
+                    {/* <Link href="team-single-hernan">
                       <Image src={three} alt="Image" />
-                    </Link> 
+                    </Link>  */}
+                    <Image src={three} alt="Image" />
                     <div
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="info">
-                        <p>
+                        {/* <p>
                           “Lorem ipsum dolor sit amet consectetur adipiscing
                           elit
-                        </p>
+                        </p> */}
                       </div>
                       <h4>
-                        <Link href="team-single-hernan">Hernan Canal Vences</Link>
+                      Hernan Canal Vences
+                        {/* <Link href="team-single-hernan">Hernan Canal Vences</Link> */}
                       </h4>
-                      <p>El nuevo</p>
+                      <p>Ejecutivo de cuentas</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -635,7 +649,8 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single-hernan">Hernan Canal Vences</Link>
+                      Hernan Canal Vences
+                        {/* <Link href="team-single-hernan">Hernan Canal Vences</Link> */}
                       </h5>
                       <p>Ejecutivo de cuentas</p>
                     </div>
@@ -718,21 +733,23 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single-javier">
+                    {/* <Link href="team-single-javier">
                       <Image src={one} alt="Image" />
-                    </Link> 
+                    </Link>  */}
+                    <Image src={one} alt="Image" />
                     <div
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="info">
-                        <p>
+                        {/* <p>
                           “Lorem ipsum dolor sit amet consectetur adipiscing
                           elit
-                        </p>
+                        </p> */}
                       </div>
                       <h4>
-                        <Link href="team-single-javier">Javier Pianta</Link>
+                      Javier Pianta
+                        {/* <Link href="team-single-javier">Javier Pianta</Link> */}
                       </h4>
                       <p>Fundador, Ceo</p>
                       <div className="social-alt">
@@ -763,7 +780,8 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single-javier">Javier Pianta</Link>
+                      Javier Pianta
+                        {/* <Link href="team-single-javier">Javier Pianta</Link> */}
                       </h5>
                       <p>Fundador, Ceo</p>
                     </div>
@@ -839,7 +857,6 @@ const TeamMembers = () => {
                 </div>
               </div>
             </SwiperSlide>
-
 
 
 

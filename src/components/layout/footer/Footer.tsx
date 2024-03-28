@@ -18,20 +18,20 @@ const Footer = () => {
                 <Image src={logo} alt="Image" />
               </Link>
               <div className="footer__single-meta">
-                <Link
+                {/* <Link
                   href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
                   Lorem ipsum dolor sit amet. 
-                </Link>
+                </Link> */}
                 <Link href="tel:406-555-0120">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
                   +54 11 6292-0404
                 </Link>
                 <Link href="mailto:info@xpovio.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  hola@pdm.com.com
+                  pdmconsultores.argentina@gmail.com 
                 </Link>
               </div>
               <div className="footer__cta text-start">

@@ -33,8 +33,8 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Email</h4>
                 <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    hola@pdm.com.ar
+                  <Link href="mailto:pdmconsultores.argentina@gmail.com">
+                  hola@pdm.com.ar
                   </Link>
                 </p>
                
